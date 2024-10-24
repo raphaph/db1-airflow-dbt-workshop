@@ -1,7 +1,7 @@
 {{ config(
     tags=["trusted", "customers"],
     materialized="incremental",
-    unique_key="cd_cliente"
+    unique_key="cd_pedido"
 )}}
 
 select 
