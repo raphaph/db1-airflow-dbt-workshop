@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: tru_customers
+    columns:
+      - name: cd_cliente
+        tests:
+          - not_null

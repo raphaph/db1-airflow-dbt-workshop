@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: tru_orders
+    columns:
+      - name: cd_pedido
+        tests:
+          - not_null

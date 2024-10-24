@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: astro_db
+    schema: raw_data
+    tables:
+      - name: tb_customers
+      - name: tb_orders
+      - name: tb_order_payments
+      - name: tb_order_items
