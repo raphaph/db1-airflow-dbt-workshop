@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: tru_customers
+  - name: agr_customer_orders_mon
     columns:
-      - name: cd_cliente
+      - name: cd_periodo_mes
         tests:
           - not_null

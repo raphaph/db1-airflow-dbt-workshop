@@ -2,8 +2,8 @@ name: astro_etl_dbt
 config-version: 2
 
 vars:
-  user_name: "Raphael Barros"
-  user_email: "raphael.barros@db1.com.br"
+  user_name: "Raphael"
+  user_email: "rapha.wb@hotmail.com"
 
 model-paths: ["models"]
 
@@ -12,5 +12,5 @@ models:
     materialized: view
     sales_stage:
       materialized: table
-    sales_stage:
+    sales_trusted:
       materialized: table

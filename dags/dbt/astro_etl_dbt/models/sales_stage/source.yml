@@ -7,5 +7,3 @@ sources:
     tables:
       - name: tb_customers
       - name: tb_orders
-      - name: tb_order_payments
-      - name: tb_order_items

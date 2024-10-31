@@ -6,3 +6,4 @@ models:
       - name: order_id
         tests:
           - not_null
+          - unique

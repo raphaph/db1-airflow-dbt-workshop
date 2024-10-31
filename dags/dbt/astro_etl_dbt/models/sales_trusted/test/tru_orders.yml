@@ -6,3 +6,4 @@ models:
       - name: cd_pedido
         tests:
           - not_null
+          - unique

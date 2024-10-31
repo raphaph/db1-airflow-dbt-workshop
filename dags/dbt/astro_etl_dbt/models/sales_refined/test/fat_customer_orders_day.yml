@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: fat_customer_orders_day
+    columns:
+      - name: cd_pedido
+        tests:
+          - not_null
+          - unique
